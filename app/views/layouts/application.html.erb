@@ -27,8 +27,8 @@
 
               <% if user_signed_in? %>
               <li>
-               <a class="nav-link text-light" href="/users/:id">
-                <i class="fa-solid fa-house"></i>
+               <a class="nav-link text-light" href="/users/<%= current_user.id %>">
+            　    <i class="fa-solid fa-house"></i>
                 Home
                </a>
               </li>
